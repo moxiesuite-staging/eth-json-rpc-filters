@@ -1,7 +1,7 @@
 {
-  "name": "eth-json-rpc-filters",
+  "name": "@trufflesuite/eth-json-rpc-filters",
   "version": "4.1.1",
-  "description": "[json-rpc-engine](https://github.com/kumavis/json-rpc-engine) middleware implementing ethereum filter methods. Backed by an [eth-block-tracker](https://github.com/MetaMask/eth-block-tracker) and web3 provider interface (`web3.currentProvider`).",
+  "description": "Fork of https://github.com/MetaMask/eth-json-rpc-filters",
   "main": "index.js",
   "scripts": {
     "test": "node test"
@@ -30,11 +30,13 @@
     "test": "test"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kumavis/eth-json-rpc-filters.git"
+    "url": "https://github.com/trufflesuite/eth-json-rpc-filters"
   },
   "bugs": {
-    "url": "https://github.com/kumavis/eth-json-rpc-filters/issues"
+    "url": "https://github.com/trufflesuite/eth-json-rpc-filters/issues"
   },
-  "homepage": "https://github.com/kumavis/eth-json-rpc-filters#readme"
+  "homepage": "https://github.com/trufflesuite/eth-json-rpc-filters#readme",
+  "publishConfig": {
+    "access": "public"
+  }
 }
