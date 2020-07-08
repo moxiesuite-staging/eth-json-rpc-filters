@@ -1,6 +1,6 @@
 {
   "name": "@trufflesuite/eth-json-rpc-filters",
-  "version": "4.1.1",
+  "version": "4.1.2-1",
   "description": "Fork of https://github.com/MetaMask/eth-json-rpc-filters",
   "main": "index.js",
   "scripts": {
