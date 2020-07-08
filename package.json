@@ -9,8 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@trufflesuite/eth-json-rpc-middleware": "^4.4.2-0",
     "await-semaphore": "^0.1.3",
-    "eth-json-rpc-middleware": "^4.1.4",
     "eth-query": "^2.1.2",
     "json-rpc-engine": "^5.1.3",
     "lodash.flatmap": "^4.5.0",

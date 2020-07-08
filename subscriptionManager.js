@@ -1,5 +1,5 @@
 const SafeEventEmitter = require('safe-event-emitter')
-const createScaffoldMiddleware = require('eth-json-rpc-middleware/scaffold')
+const createScaffoldMiddleware = require('@trufflesuite/eth-json-rpc-middleware/scaffold')
 const createAsyncMiddleware = require('json-rpc-engine/src/createAsyncMiddleware')
 const createFilterMiddleware = require('./index.js')
 const { unsafeRandomBytes, incrementHexInt } = require('./hexUtils.js')
